@@ -1,0 +1,9 @@
+
+footer  {
+    background-color:black!important;
+}
+.bi-github, .bi-envelope-open-heart, .bi-linkedin {
+    font-size:1.5rem; 
+    color:white; 
+    background-color:transparent
+}
