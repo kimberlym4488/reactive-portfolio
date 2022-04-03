@@ -1,0 +1,50 @@
+[
+    {
+        "id": 1,
+        "title": "Podcast-Reviews",
+        "video": "https://www.loom.com/embed/d956fcd274b34552952ad0b18fee2975",
+        "href": "https://podcast-points.herokuapp.com/",
+        "repo": "https://github.com/kimberlym4488/podcast-points-blog.git",
+        "about": "Review your favorite (or least favorite) podcasts and checkout the podcast of the month. Quickly share with your friends!"
+    },
+    {
+        "id": 2,
+        "title": "Tutor-Tea",
+        "video": "https://www.loom.com/embed/bf4a52e1b9164f02bbd06c5873e7dcb0",
+        "href": "https://tutor-tea-brew.herokuapp.com/",
+        "repo": "https://github.com/kimberlym4488/tutortea",
+        "about": "Find a new tutor based on reviews and availability. Spill some tea on your current tutor and help current and future students."
+    },
+    {
+        "id": 3,
+        "title": "Elevator-pitch",
+        "video": "https://www.loom.com/embed/fac1a9101fff45c2a565f7ade0fa7144",
+        "href": "https://elevatorpitch.space",
+        "repo": "https://github.com/jmichaelbrown8/elevator-pitch",
+        "about": "Elevator Pitch is a site to organize group projects based on ideas, rather than individuals. It allows users to create 'Spaces' within which you can pitch an idea, provide images, markdowns, or links. Other users can browse those ideas and sign up as interested in contributing, or add comments to ask questions to the idea pitcher.",
+        "tech": "Handlebars, Sequelize, CSS, HTML, JS, Jquery"
+    },
+    {
+        "id": 4,
+        "title": "BrewTrek",
+        "video": "https://www.loom.com/embed/5afa427e1f96467ab1eb137f43fc4e38",
+        "href": "https://kimberlym4488.github.io/brewtrek/",
+        "repo": "https://github.com/kimberlym4488/brewtrek",
+        "about": "Elevator Pitch is a site to organize group projects based on ideas, rather than individuals. It allows users to create 'Spaces' within which you can pitch an idea, provide images, markdowns, or links. Other users can browse those ideas and sign up as interested in contributing, or add comments to ask questions to the idea pitcher.",
+        "tech": "Handlebars, Sequelize, CSS, HTML, JS, Jquery"
+    },
+    {
+        "id": 5,
+        "title": "Bachelor-Quiz-Game",
+        "video": "https://www.loom.com/embed/83f90904ca45408cbdee8a86557a7d31",
+        "href": "https://kimberlym4488.github.io/coding-quiz-bachelorette/",
+        "repo": "https://github.com/kimberlym4488/coding-quiz-bachelorette"
+    },
+    {
+        "id": 6,
+        "title": "One-spot-team-shop",
+        "video": "https://www.loom.com/embed/07cca1dfdc9746afbdd59ba5138069b8",
+        "href": "https://github.com/kimberlym4488/team-generator.git",
+        "repo": "https://github.com/kimberlym4488/team-generator.git"
+    }
+]
