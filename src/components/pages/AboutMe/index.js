@@ -24,14 +24,14 @@ const styles = {
 
   tech: {
     color: "rgb(13,202,240)",
-    fontWeight: "normal",
   },
   light: {
-    fontWeight: "200",
+    fontWeight: "400",
+    fontSize: ".9rem",
   },
 };
 
-function AboutMe( handlePageChange) {
+function AboutMe(handlePageChange) {
   return (
     <>
       <section className="Website-Frame aboutMe ">
@@ -44,7 +44,8 @@ function AboutMe( handlePageChange) {
         >
           <p className="card-text col-sm-12 col-md-12 col-lg-6 col-xl-6 lh-lg px-4">
             <span style={styles.span}>A little about me: </span> Creative,
-            determined self-starter with a love for technology.{" "}
+            determined self-starter with a love for technology. <br></br>
+            <br></br>
             <span style={styles.light}>
               {" "}
               I love learning new things and overcoming a challenge. My
@@ -52,12 +53,12 @@ function AboutMe( handlePageChange) {
               has helped me to become a well-rounded, experienced, and reliable
               teammate.{" "}
             </span>
-           
             <br></br>
             <br></br>
-
             <span style={styles.span}>Real world experience: </span>Full-stack
-            developer who can resolve the pain points.<br/>
+            developer who can resolve the pain points.
+            <br></br>
+            <br></br>
             <span style={styles.light}>
               I've published and enhanced live apps using: <br />
               <span style={styles.tech}>React</span>
@@ -72,7 +73,7 @@ function AboutMe( handlePageChange) {
               <br />
               <span style={styles.tech}>Sequelize</span>
               <br></br>
-            <br></br>
+              <br></br>
               My
               <a
                 href="#projects"

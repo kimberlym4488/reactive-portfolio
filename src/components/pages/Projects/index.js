@@ -38,6 +38,13 @@ const styles = {
   buttonPrimary: {
     color: "white",
   },
+  light: {
+    fontWeight: "400",
+  },
+  tech: {
+    fontWeight: "400",
+    fontStyle: "italic",
+  },
 };
 
 const Projects = () => {
@@ -59,9 +66,11 @@ const Projects = () => {
               <>
                 <div className=" d-flex row col-md-6 col-xl-6 col-xxl-6 px-4">
                   <div style={styles.project}>
-                    <p className="fw-bold">{title}</p>
-                    <h6 className="lh-lg">{about}</h6>
-                    <h7>{tech}</h7>
+                    <p className="fw-bold fs-5">{title}</p>
+                    <h6 className="lh-lg" style={styles.light}>
+                      {about}
+                    </h6>
+                    <h7 style={styles.tech}>{tech}</h7>
                   </div>
                   <br />
                   <div className="btn-group w-50 my-4">
