@@ -1,70 +1,57 @@
-# Getting Started with Create React App
+# Reactive Developer Portfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## License
 
-## Available Scripts
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)<br> License Link:<br> https://opensource.org/licenses/MIT
 
-In the project directory, you can run:
+## Table of Contents
 
-### `npm start`
+> [Author Name](#author-name) <br> >[Deployed Page](#deployed-page) <br> >[GitHub Repo](#github-repo) <br> >[Project Description](#project-description)<br> >[Installation](#installation)<br> >[Usage](#usage)<br> >[Test Instructions](#test-instructions)<br> >[Contribution Guidelines](#contribution)<br> >[Preview Image](#preview-image)<br> >[Video Walkthrough](#video-walkthrough)<br> >[GitHub username](#github-username)<br> >[Contact Me!](#contact-me-with-questions)<br>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Author Name
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Kim Moran
 
-### `npm test`
+## GitHub userName
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+[kimberlym4488](https://github.io/kimberlym4488)
 
-### `npm run build`
+## Contact me with questions
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+kmorandev@gmail.com
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Deployed Page
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+https://kimberlym4488.github.io/reactive-portfolio/
 
-### `npm run eject`
+## GitHub Repo
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+https://github.com/kimberlym4488/reactive-portfolio
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Video Walkthrough
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+https://www.loom.com/share/eaa44a5bf7e54d7cbd722dca92dcd745
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Project Description
 
-## Learn More
+A reactive, responsive modern view of my latest work!
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Installation
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+View the page at the deployed link above.
 
-### Code Splitting
+## Usage
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+To view my latest projects and quickly contact me.
 
-### Analyzing the Bundle Size
+## Test Instructions
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+n/a
 
-### Making a Progressive Web App
+## Preview Image
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+[![image](https://user-images.githubusercontent.com/92805933/161462167-a106c746-d752-4dcf-b0f9-d78da32be006.png)](https://kimberlym4488.github.io/reactive-portfolio/)
 
-### Advanced Configuration
+[![image](https://user-images.githubusercontent.com/92805933/161462696-3a273778-38b9-4352-a6fe-a205e7c00c07.png)](https://kimberlym4488.github.io/reactive-portfolio/)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+[![Preview2](https://user-images.githubusercontent.com/92805933/161462206-7cae77d5-9b0e-4f4d-be20-f829be0943be.PNG)](https://kimberlym4488.github.io/reactive-portfolio/)
