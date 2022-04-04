@@ -39,6 +39,10 @@ function AboutMe() {
             learning new things and overcoming a challenge. My experience with
             various software programs and working on a team has helped me to
             become a well-rounded, experienced, and reliable teammate.
+
+            <br/>
+
+            
           </p>
 
           <div className="d-flex col-sm-12 col-md-12 col-lg-6 col-xl-6 lh-lg justify-content-center align-items-center py-4">

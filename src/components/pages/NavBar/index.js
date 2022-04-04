@@ -2,7 +2,7 @@
 import React, { useState } from "react";
 import "./styles.css";
 
-function NavBar() {
+function NavBar({ currentPage, handlePageChange }) {
   const [show, setShow] = useState(false);
 
   const styles = {
@@ -34,42 +34,61 @@ function NavBar() {
             <div className="navbar-nav ">
               {/* About me w/flip animation */}
               <a
-                className="nav-link active"
+                className={
+                  currentPage === "Home" ? "nav-link active" : "nav-link"
+                }
                 aria-current="page"
                 alt="home"
-                href="#"
+                href="#aboutMe"
+                onClick={() => handlePageChange("AboutMe")}
               >
                 <div
-                  className="flip-container"
+                  className="flip-container1"
                   ontouchstart="this.classList.toggle('hover');"
                 >
-                  <div className="flipper">
-                    <div className="front">Bio</div>
-                    <div className="back">About Me</div>
+                  <div className="flipper1">
+                    <div className="front1">Bio</div>
+                    <div className="back1">About Me</div>
                   </div>
                 </div>
               </a>
               {/* Projects w/flip animation */}
-              <a className="nav-link" aria-current="page" alt="home" href="#">
+              <a
+                className={
+                  currentPage === "Projects" ? "nav-link active" : "nav-link"
+                }
+                aria-current="page"
+                alt="projects"
+                href="#projects"
+                onClick={() => handlePageChange("Projects")}
+              >
                 <div
-                  className="flip-container"
+                  className="flip-container1"
                   ontouchstart="this.classList.toggle('hover');"
                 >
-                  <div className="flipper">
-                    <div className="front">Projects</div>
-                    <div className="back">My work</div>
+                  <div className="flipper1">
+                    <div className="front1">Projects</div>
+                    <div className="back1">My work</div>
                   </div>
                 </div>
               </a>
               {/* Contact w/flip animation */}
-              <a className="nav-link" aria-current="page" alt="home" href="#">
+              <a
+                className={
+                  currentPage === "ContactForm" ? "nav-link active" : "nav-link"
+                }
+                aria-current="page"
+                alt="home"
+                href="#contactForm"
+                onClick={() => handlePageChange("ContactForm")}
+              >
                 <div
-                  className="flip-container"
+                  className="flip-container1"
                   ontouchstart="this.classList.toggle('hover');"
                 >
-                  <div className="flipper">
-                    <div className="front">Contact</div>
-                    <div className="back">Let's chat!</div>
+                  <div className="flipper1">
+                    <div className="front1">Contact</div>
+                    <div className="back1">Let's chat!</div>
                   </div>
                 </div>
               </a>
@@ -87,12 +106,12 @@ function NavBar() {
                 href="#"
               >
                 <div
-                  className="flip-container"
+                  className="flip-container1"
                   ontouchstart="this.classList.toggle('hover');"
                 >
-                  <div className="flipper">
-                    <div className="front">Resume</div>
-                    <div className="back">View</div>
+                  <div className="flipper1">
+                    <div className="front1">Resume</div>
+                    <div className="back1">View</div>
                   </div>
                 </div>
               </a>

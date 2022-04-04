@@ -1,20 +1,13 @@
-/* entire container, keeps perspective */
-/* .flip-container {
-	perspective: 1000px;
-} */
-/* For vertical flip: position relative */
-.navbar-nav{
-	margin:1rem;
-	padding:1rem;
-	display:flex;
-	text-align:center;
-	justify-content:center;
-	align-items:center;
-	margin-left:1rem;
-	margin-right:1rem;
 
+footer  {
+    background-color:black!important;
+	font-family: 'Quicksand', sans-serif!important;
 }
-
+.bi-github, .bi-envelope-open-heart, .bi-linkedin {
+    font-size:1.5rem; 
+    color:white!important;
+    background-color:transparent!important;
+}
 
 .flip-container {
 	position:relative;
@@ -27,12 +20,12 @@
 
 .flip-container, .front, .back {
 	width: 100px;
-	height: 40px;
+	height: 50px;
 
 }
 
 .flip-container .flipper {
-	transform-origin: 100% 20px; /* half of height */
+	transform-origin: 100% 40px; /* half of height */
 }
 
 /* flip speed goes here */

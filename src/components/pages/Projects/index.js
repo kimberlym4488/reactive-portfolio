@@ -1,5 +1,5 @@
 import React from "react";
-import portfolioItems from "../data/portfolio.json";
+import portfolioItems from "../../../data/portfolio.json";
 
 const styles = {
   text: {
