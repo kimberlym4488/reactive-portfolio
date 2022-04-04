@@ -24,7 +24,7 @@ const styles = {
   cardHolder: {
     background: "rgb(13, 202, 240)",
     background:
-      "linear-gradient(75deg, rgba( 13, 202, 240,.03) 50%, rgba(255,255,255,1) 50%)",
+      "linear-gradient(75deg, rgba( 13, 202, 240,.1) 50%, rgba(255,255,255,1) 50%)",
   },
 
   span: {

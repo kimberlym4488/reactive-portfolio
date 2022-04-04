@@ -18,7 +18,7 @@ function ContactForm() {
     cardBody: {
       background: "rgb(241, 244, 245)",
       background:
-        "linear-gradient(95deg, rgba(241, 244, 245,.2) 50%, rgba(255,255,255,1) 50%)",
+        "linear-gradient(95deg, rgba(241, 244, 245,.5) 50%, rgba(255,255,255,1) 50%)",
     },
     buttonPrimary: {
       color: "white",
