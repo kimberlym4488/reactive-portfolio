@@ -25,7 +25,7 @@ footer  {
 }
 
 .flip-container .flipper {
-	transform-origin: 100% 40px; /* half of height */
+	transform-origin: 100% 35px; /* half of height */
 }
 
 /* flip speed goes here */

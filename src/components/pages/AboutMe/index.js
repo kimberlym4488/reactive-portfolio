@@ -21,9 +21,17 @@ const styles = {
     fontWeight: "bold",
     color: "#77949E",
   },
+
+  tech: {
+    color: "rgb(13,202,240)",
+    fontWeight: "normal",
+  },
+  light: {
+    fontWeight: "200",
+  },
 };
 
-function AboutMe() {
+function AboutMe( handlePageChange) {
   return (
     <>
       <section className="Website-Frame aboutMe ">
@@ -35,14 +43,48 @@ function AboutMe() {
           style={styles.cardBody}
         >
           <p className="card-text col-sm-12 col-md-12 col-lg-6 col-xl-6 lh-lg px-4">
-            I'm a creative problem solver with a love for technology. I love
-            learning new things and overcoming a challenge. My experience with
-            various software programs and working on a team has helped me to
-            become a well-rounded, experienced, and reliable teammate.
+            <span style={styles.span}>A little about me: </span> Creative,
+            determined self-starter with a love for technology.{" "}
+            <span style={styles.light}>
+              {" "}
+              I love learning new things and overcoming a challenge. My
+              experience with various software programs and working on a team
+              has helped me to become a well-rounded, experienced, and reliable
+              teammate.{" "}
+            </span>
+           
+            <br></br>
+            <br></br>
 
-            <br/>
-
-            
+            <span style={styles.span}>Real world experience: </span>Full-stack
+            developer who can resolve the pain points.<br/>
+            <span style={styles.light}>
+              I've published and enhanced live apps using: <br />
+              <span style={styles.tech}>React</span>
+              <br />
+              <span style={styles.tech}>Express</span>
+              <br />
+              <span style={styles.tech}>Node</span>
+              <br />
+              <span style={styles.tech}>MongoDB/Mongoose</span>
+              <br />
+              <span style={styles.tech}>Handlebars</span>
+              <br />
+              <span style={styles.tech}>Sequelize</span>
+              <br></br>
+            <br></br>
+              My
+              <a
+                href="#projects"
+                className="text-decoration-none"
+                alt="projects"
+                onClick={() => handlePageChange("Projects")}
+              >
+                <span style={styles.span}> portfolio </span>
+              </a>
+              highlights my clean, functional, and fun designs using CSS
+              (Bootstrap, Bulma Frameworks) and in-line HTML/JSX styling.
+            </span>
           </p>
 
           <div className="d-flex col-sm-12 col-md-12 col-lg-6 col-xl-6 lh-lg justify-content-center align-items-center py-4">
