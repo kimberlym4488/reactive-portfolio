@@ -3,7 +3,7 @@ import portfolioItems from "../data/portfolio.json";
 
 const styles = {
   text: {
-    backgroundColor: 'rgb(241, 244, 245,1)',
+    backgroundColor: "rgb(241, 244, 245,1)",
     color: "black",
   },
 
@@ -22,14 +22,21 @@ const styles = {
   },
 
   cardHolder: {
-    background: "rgb(0, 165, 240)",
+    background: "rgb(13, 202, 240)",
     background:
-    "linear-gradient(75deg, rgba( 0, 165, 240,.03) 50%, rgba(255,255,255,1) 50%)",
+      "linear-gradient(75deg, rgba( 13, 202, 240,.03) 50%, rgba(255,255,255,1) 50%)",
   },
 
   span: {
     fontWeight: "bold",
-    color: "rgba(0, 165, 240,1)",
+    color: "rgba(13, 202, 240,1)",
+  },
+  project: {
+    color: "black",
+    width: "75%",
+  },
+  buttonPrimary: {
+    color: "white",
   },
 };
 
@@ -40,56 +47,71 @@ const Projects = () => {
         <div className=" text-center py-4">Projects</div>
       </div>
 
-      <div
-        className="row justify-content-space-between align-items-center "
-        style={styles.cardHolder}
-      >
+      <div className="row" style={styles.cardHolder}>
         <div className="text-center py-4 gy-4 display-5">
           <h4>My</h4>
           <h4>passion</h4>
           <h4 style={styles.span}>projects</h4>
         </div>
-        <div className="row">
-          {portfolioItems.map(({ id, title, video, href, repo }) => (
-            <>
-              <div className="col-md-6 col-xl-6 col-xxl-6 text-center">
-                <p>{title}</p>
-                <div className="d-grid d-md-block gap-2">
-                  <button className="btn btn-primary" type="button">
-                    <a href={href} target="_blank" rel="noreferrer">
+        <div className="row d-flex align-items-center justify-content-center">
+          {portfolioItems.map(
+            ({ id, title, video, href, repo, about, tech }) => (
+              <>
+                <div className=" d-flex row col-md-6 col-xl-6 col-xxl-6 px-4">
+                  <div style={styles.project}>
+                    <p className="fw-bold">{title}</p>
+                    <h6 className="lh-lg">{about}</h6>
+                    <h7>{tech}</h7>
+                  </div>
+                  <br />
+                  <div className="btn-group w-50 my-4">
+                    <a
+                      href={href}
+                      target="_blank"
+                      style={styles.buttonPrimary}
+                      type="button"
+                      className="btn btn-info"
+                      rel="noreferrer"
+                    >
                       Experience
                     </a>
-                  </button>
-                  <button className="btn btn-outline-primary" type="button">
-                    <a href={repo} target="_blank">
+
+                    <a
+                      href={repo}
+                      target="_blank"
+                      type="button"
+                      className="btn btn-outline-info"
+                      rel="noreferrer"
+                    >
                       Repo
                     </a>
-                  </button>
-                </div>
-              </div>
-
-              <div className="col-md-6 col-xl-6 col-xxl-6  text-center ">
-                <div className="card card-body shadow-sm">
-                  <div
-                    className="frame"
-                    key={id}
-                    style={styles.frame}
-                    onClick={() => {}}
-                  >
-                    <iframe
-                      title={title}
-                      src={video}
-                      frameborder="0"
-                      webkitallowfullscreen
-                      mozallowfullscreen
-                      allowfullscreen
-                      style={styles.iFrame}
-                    ></iframe>
                   </div>
                 </div>
-              </div>
-            </>
-          ))}
+
+                <div className="col-md-6 col-xl-6 col-xxl-6 py-4 my-4">
+                  <div className="card card-body shadow-sm">
+                    <div
+                      className="frame"
+                      key={id}
+                      style={styles.frame}
+                      onClick={() => {}}
+                    >
+                      <iframe
+                        title={title}
+                        src={video}
+                        frameborder="0"
+                        webkitallowfullscreen
+                        mozallowfullscreen
+                        allowfullscreen
+                        style={styles.iFrame}
+                      ></iframe>
+                    </div>
+                  </div>
+                </div>
+                <hr></hr>
+              </>
+            )
+          )}
         </div>
       </div>
     </>

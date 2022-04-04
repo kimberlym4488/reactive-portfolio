@@ -40,7 +40,7 @@ WHEN I am presented with the About Me section
 THEN I see a recent photo or avatar of the developer and a short bio about them DONE
 
 WHEN I am presented with the Portfolio section
-THEN I see titled images of six of the developer’s applications with links to both the deployed applications and the corresponding GitHub repositories
+THEN I see titled images of six of the developer’s applications with links to both the deployed applications and the corresponding GitHub repositories DONE
 
 WHEN I am presented with the Contact section
 THEN I see a contact form with fields for a name, an email address, and a message
