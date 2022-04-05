@@ -33,7 +33,7 @@ const styles = {
   },
   project: {
     color: "black",
-    width: "75%",
+    width: "90%",
   },
   buttonPrimary: {
     color: "white",

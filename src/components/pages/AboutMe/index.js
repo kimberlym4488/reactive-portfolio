@@ -31,7 +31,7 @@ const styles = {
   },
 };
 
-function AboutMe(handlePageChange) {
+function AboutMe({ currentPage, handlePageChange }) {
   return (
     <>
       <section className="Website-Frame aboutMe ">
