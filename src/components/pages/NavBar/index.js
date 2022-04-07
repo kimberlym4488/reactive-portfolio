@@ -7,8 +7,8 @@ function NavBar({ currentPage, handlePageChange }) {
 
   const styles = {
     navbarBrand: {
-      "font-family": "montez",
-      "font-size": "2rem",
+      "fontFamily": "montez",
+      "fontSize": "2rem",
     },
   };
   return (
@@ -44,7 +44,7 @@ function NavBar({ currentPage, handlePageChange }) {
               >
                 <div
                   className="flip-container1"
-                  ontouchstart="this.classList.toggle('hover');"
+                  onTouchStart={() => this.classList.toggle('hover')}
                 >
                   <div className="flipper1">
                     <div className="front1">Bio</div>
@@ -64,7 +64,7 @@ function NavBar({ currentPage, handlePageChange }) {
               >
                 <div
                   className="flip-container1"
-                  ontouchstart="this.classList.toggle('hover');"
+                  onTouchStart={() => this.classList.toggle('hover')}
                 >
                   <div className="flipper1">
                     <div className="front1">Projects</div>
@@ -84,7 +84,7 @@ function NavBar({ currentPage, handlePageChange }) {
               >
                 <div
                   className="flip-container1"
-                  ontouchstart="this.classList.toggle('hover');"
+                  onTouchStart={() => this.classList.toggle('hover')}
                 >
                   <div className="flipper1">
                     <div className="front1">Contact</div>
@@ -107,7 +107,7 @@ function NavBar({ currentPage, handlePageChange }) {
               >
                 <div
                   className="flip-container1"
-                  ontouchstart="this.classList.toggle('hover');"
+                  onTouchStart={() => this.classList.toggle('hover')}
                 >
                   <div className="flipper1">
                     <div className="front1">Resume</div>

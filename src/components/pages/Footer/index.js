@@ -5,7 +5,7 @@ function Footer() {
     <>
       <footer className="text-center py-4">
         <div className="container">
-          <p className="footer-icons list-instyled list-inline text-center">
+          <div className="footer-icons list-instyled list-inline text-center">
             <a
               alt="github"
               href="https://github.com/kimberlym4488/"
@@ -14,7 +14,7 @@ function Footer() {
             >
               <div
                 className="flip-container list-inline-item"
-                ontouchstart="this.classList.toggle('hover');"
+                onTouchStart={() => this.classList.toggle('hover')}
               >
                 <div className="flipper">
                   <div className="front bi bi-github px-1 py-3"></div>
@@ -31,7 +31,7 @@ function Footer() {
             >
               <div
                 className="flip-container list-inline-item"
-                ontouchstart="this.classList.toggle('hover');"
+                onTouchStart={() => this.classList.toggle('hover')}
               >
                 <div className="flipper">
                   <div className="front bi bi-envelope-open-heart px-1 py-3"></div>
@@ -48,7 +48,7 @@ function Footer() {
             >
               <div
                 className="flip-container list-inline-item"
-                ontouchstart="this.classList.toggle('hover');"
+                onTouchStart={() => this.classList.toggle('hover')}
               >
                 <div className="flipper">
                   <div className="front bi bi-linkedin px-1 py-3"></div>
@@ -56,7 +56,7 @@ function Footer() {
                 </div>
               </div>
             </a>
-          </p>
+          </div>
         </div>
       </footer>
     </>

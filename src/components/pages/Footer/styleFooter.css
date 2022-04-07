@@ -2,6 +2,8 @@
 footer  {
     background-color:black!important;
 	font-family: 'Quicksand', sans-serif!important;
+	max-width:100vw;
+
 }
 .bi-github, .bi-envelope-open-heart, .bi-linkedin {
     font-size:1.5rem; 
