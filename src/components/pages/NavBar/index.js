@@ -9,6 +9,7 @@ function NavBar({ currentPage, handlePageChange }) {
     navbarBrand: {
       "fontFamily": "montez",
       "fontSize": "2rem",
+      "marginLeft":"1rem"
     },
   };
   return (
@@ -19,7 +20,7 @@ function NavBar({ currentPage, handlePageChange }) {
             Kim Moran
           </a>
           <button
-            className="navbar-toggler"
+            className="navbar-toggler mx-2"
             type="button"
             aria-expanded="false"
             aria-label="Toggle navigation"

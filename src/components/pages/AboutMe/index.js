@@ -44,19 +44,19 @@ function AboutMe({ currentPage, handlePageChange }) {
         >
           <p className="card-text col-sm-12 col-md-12 col-lg-6 col-xl-6 lh-lg px-4">
             <span style={styles.span}>A little about me: </span> Creative,
-            determined self-starter with a love for technology. <br></br>
+            curious, determined self-starter with a love for technology.{" "}
+            <br></br>
             <br></br>
             <span style={styles.light}>
               {" "}
-              I love learning new things and overcoming a challenge. My
-              experience with various software programs and working on a team
-              has helped me to become a well-rounded, experienced, and reliable
-              teammate.{" "}
+              I am curious and passionate about learning new things and
+              overcoming a challenge. The teams I've worked on have described me
+              as a caring, helpful, and reliable teammate.{" "}
             </span>
             <br></br>
             <br></br>
             <span style={styles.span}>Real world experience: </span>Full-stack
-            developer who can resolve the pain points.
+            developer who sees the big picture.
             <br></br>
             <br></br>
             <span style={styles.light}>
@@ -83,7 +83,7 @@ function AboutMe({ currentPage, handlePageChange }) {
               >
                 <span style={styles.span}> portfolio </span>
               </a>
-              highlights my clean, functional, and fun designs using CSS
+              highlights my clean, responsive front-end designs using CSS
               (Bootstrap, Bulma Frameworks) and in-line HTML/JSX styling.
             </span>
           </p>
@@ -91,10 +91,10 @@ function AboutMe({ currentPage, handlePageChange }) {
           <div className="d-flex col-sm-12 col-md-12 col-lg-6 col-xl-6 lh-lg justify-content-center align-items-center py-4">
             <div className="row justify-content-center align-items-center">
               <div className="text-center col-6 align-items-center display-5 ">
-                <h4>I</h4>
-                <h4>love</h4>
-                <h4>to</h4>
-                <h4 style={styles.span}>create</h4>
+                <h4>full</h4>
+                <h4>stack</h4>
+                <h4>web</h4>
+                <h4 style={styles.span}>dev</h4>
               </div>
               <div className="col-6 ">
                 <img
