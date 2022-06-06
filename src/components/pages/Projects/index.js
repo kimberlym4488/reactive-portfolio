@@ -62,11 +62,15 @@ const Projects = () => {
         </div>
         <div className="row d-flex align-items-center justify-content-center">
           {portfolioItems.map(
-            ({ id, title, video, href, repo, about, tech }) => (
+            ({ id, title, video, href, repo, work, about, tech }) => (
               <>
                 <div className=" d-flex row col-md-6 col-xl-6 col-xxl-6 px-4">
                   <div style={styles.project}>
                     <p className="fw-bold fs-5">{title}</p>
+                    <h6 className="lh-lg" style={styles.light}>
+                      <span className="fw-bold ">My work: </span>
+                      {work}
+                    </h6>
                     <h6 className="lh-lg" style={styles.light}>
                       {about}
                     </h6>
@@ -109,9 +113,9 @@ const Projects = () => {
                         title={title}
                         src={video}
                         frameborder="0"
-                        webkitallowfullscreen
-                        mozallowfullscreen
-                        allowfullscreen
+                        webkitallowfullscreen="true"
+                        mozallowfullscreen="true"
+                        allowfullscreen="true"
                         style={styles.iFrame}
                       ></iframe>
                     </div>

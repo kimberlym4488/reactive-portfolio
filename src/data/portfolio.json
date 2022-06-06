@@ -1,56 +1,52 @@
 [
     {
         "id": 1,
-        "title": "Podcast-Reviews",
-        "video": "https://www.loom.com/embed/d956fcd274b34552952ad0b18fee2975",
-        "href": "https://podcast-points.herokuapp.com/",
-        "repo": "https://github.com/kimberlym4488/podcast-points-blog.git",
-        "about": "Review your favorite (or least favorite) podcasts and checkout the podcast of the month. Quickly share with your friends!",
-        "tech": "Handlebars, Sequelize, CSS, HTML, JS, Jquery, Express, Rest API, Node"
+        "title": "Will it fit?",
+        "video": "https://www.loom.com/embed/97853eabb2714ed6978770dc4355e26c",
+        "href": "https://will-it-fit-app.herokuapp.com/",
+        "repo": "https://github.com/kimberlym4488/will-it-fit",
+        "work": "Apollo/GraphQL/MongoDB implementation, authentication, front-end (react) and modals for following/followers, image uploads (front and back end) utilizing cloudinary",
+        "about": "Have you had trouble finding clothes that fit? Want to share your best fit with others that have your unique body type? Enter your dimensions, favorite brands and sizes and connect with others that are your size to share!",
+        "tech": "MERN, JS, CSS, Material UI, graphQL, Apollo Server, MongoDB, faker-js, cloudinary"
     },
     {
         "id": 2,
-        "title": "Tutor-Tea",
-        "video": "https://www.loom.com/embed/bf4a52e1b9164f02bbd06c5873e7dcb0",
-        "href": "https://tutor-tea-brew.herokuapp.com/",
-        "repo": "https://github.com/kimberlym4488/tutortea",
-        "about": "Find a new tutor based on reviews and availability. Spill some tea on your current tutor and help current and future students.",
-        "tech": "Handlebars, Sequelize, CSS, HTML, JS, Jquery, Express, Rest API, Node"
+        "title": "Exceptional E-commerce",
+        "video": "https://www.loom.com/embed/ac020763a6a94d3980af8f500a5e6c7f",
+        "href": "https://extra-exceptional-ecommerce-1--kimberlym4488.repl.co/",
+        "repo": "https://github.com/kimberlym4488/extra-exceptional-ecommerce",
+        "work": "Solo back-end focused project for CRUD actions with mySQL+Express, working with many-to-many relationships and routes",
+        "about": " E-commerce tracking with products, warehouses, and descriptions. Back-end focused side project for mySQL and Express with deployment on Replit, cloud database management through jawsDB.",
+        "tech": "mySQL, Sequelize, CSS, HTML, JS, Jquery, Express, Rest API, Node, Bootstrap, Handlebars view engine"
     },
     {
         "id": 3,
-        "title": "Elevator-pitch",
-        "video": "https://www.loom.com/embed/fac1a9101fff45c2a565f7ade0fa7144",
+        "title": "Elevator Pitch",
+        "video": "https://www.loom.com/embed/9d210128da05497980705f4232564afb",
         "href": "https://elevatorpitch.space",
         "repo": "https://github.com/jmichaelbrown8/elevator-pitch",
+        "work": "Authentication, login/logout routes, full stack implementation on the 'ideas' section of the site (Back-end: view/add/edit/delete routes with authentication, including models and queries. Front-end: HTML with inline Bootstrap CSS, focus on using modals and responsive design. Added image, doc, or markdown upload functionality using multer and marked on client and server side.) Side/passion-project with class instructor, 2 week idea-to-production timeline.",
         "about": "Elevator Pitch is a site to organize group projects based on ideas, rather than individuals. It allows users to create 'Spaces' within which you can pitch an idea, provide images, markdowns, or links. Other users can browse those ideas and sign up as interested in contributing, or add comments to ask questions to the idea pitcher.",
-        "tech": "Handlebars, Sequelize, CSS, HTML, JS, Jquery, Express, Rest API, Node"
+        "tech": "mySQL, Sequelize, CSS, HTML, JS, Jquery, Express, Rest API, Node, Handlebars view engine"
     },
     {
         "id": 4,
-        "title": "BrewTrek",
-        "video": "https://www.loom.com/embed/5afa427e1f96467ab1eb137f43fc4e38",
-        "href": "https://kimberlym4488.github.io/brewtrek/",
-        "repo": "https://github.com/kimberlym4488/brewtrek",
-        "about": "Search for breweries in any city and take some useless facts with you! Search results provide website, google maps, phone, and ability to favorite.",
-        "tech": "3rd party API's, Bulma CSS, HTML, jQuery+JS"
+        "title": "TutorTea",
+        "video": "https://www.loom.com/embed/beeaf864c8344037bd5ba818ee5b7db9",
+        "href": "https://tutor-tea-brew.herokuapp.com/",
+        "repo": "https://github.com/kimberlym4488/tutortea",
+        "work": "Authentication, login/logout, full stack work on reviews (Back-end: view/add/edit/delete routes with express and model/query set up. Front-end: HTML with inline Bootstrap CSS framework and client side JS.",
+        "about": "Find a new tutor based on reviews and availability. Spill some tea on your current tutor and help current and future students. Group project with full stack assignments for each member, using GitHub projects and figma",
+        "tech": "mySQL, Sequelize, CSS, HTML, JS, Jquery, Express, Rest API, Node, Bootstrap, Handlebars view engine."
     },
     {
         "id": 5,
-        "title": "Bachelor-Quiz-Game",
-        "video": "https://www.loom.com/embed/83f90904ca45408cbdee8a86557a7d31",
-        "href": "https://kimberlym4488.github.io/coding-quiz-bachelorette/",
-        "repo": "https://github.com/kimberlym4488/coding-quiz-bachelorette",
-        "about": "As a huge reality-tv dating show fan, I had to make a quiz for my fellow fans. This utilizes local storage to save high scores, and deducts time from the clock for missed questions. You'll also see the correct answers if you answer incorrectly.",
-        "tech": "JS, HTML, CSS"
-    },
-    {
-        "id": 6,
-        "title": "One-spot-team-shop",
-        "video": "https://www.loom.com/embed/07cca1dfdc9746afbdd59ba5138069b8",
-        "href": "https://github.com/kimberlym4488/team-generator.git",
-        "repo": "https://github.com/kimberlym4488/team-generator.git",
-        "about": "Using node.js, inquirer, and jest.js, this project generates a functional and responsive  HTML with team member cards for a team manager. It includes prompts for essentials such as name, id, email, github, school, type of employee, phone number. The questions are different based on which type of employee is being added. This project has separate test files to ensure functionality.",
-        "tech": "Inquirer, Jest, CSS(Bootstrap), HTML, Express, Node"
+        "title": "BrewTrek",
+        "video": "https://www.loom.com/embed/786214658a26476b88b0c45af5548113",
+        "href": "https://kimberlym4488.github.io/brewtrek/",
+        "repo": "https://github.com/kimberlym4488/brewtrek",
+        "work": "Project and team management using Github projects board, figma. Home page and site design, implemented the random facts API and OpenBreweryDB API on client side js.",
+        "about": "Search for breweries in any city and take some useless facts with you! Search results provide website, google maps, phone, and ability to favorite. Initial group project with fully remote team ",
+        "tech": "3rd party API's, Bulma CSS, HTML, jQuery+JS"
     }
 ]

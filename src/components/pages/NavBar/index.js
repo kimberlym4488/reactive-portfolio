@@ -7,9 +7,9 @@ function NavBar({ currentPage, handlePageChange }) {
 
   const styles = {
     navbarBrand: {
-      "fontFamily": "montez",
-      "fontSize": "2rem",
-      "marginLeft":"1rem"
+      fontFamily: "montez",
+      fontSize: "2rem",
+      marginLeft: "1rem",
     },
   };
   return (
@@ -45,7 +45,7 @@ function NavBar({ currentPage, handlePageChange }) {
               >
                 <div
                   className="flip-container1"
-                  onTouchStart={() => this.classList.toggle('hover')}
+                  onTouchStart={() => this.classList.toggle("hover")}
                 >
                   <div className="flipper1">
                     <div className="front1">Bio</div>
@@ -65,31 +65,11 @@ function NavBar({ currentPage, handlePageChange }) {
               >
                 <div
                   className="flip-container1"
-                  onTouchStart={() => this.classList.toggle('hover')}
+                  onTouchStart={() => this.classList.toggle("hover")}
                 >
                   <div className="flipper1">
                     <div className="front1">Projects</div>
                     <div className="back1">My work</div>
-                  </div>
-                </div>
-              </a>
-              {/* Contact w/flip animation */}
-              <a
-                className={
-                  currentPage === "ContactForm" ? "nav-link active" : "nav-link"
-                }
-                aria-current="page"
-                alt="home"
-                href="#contactForm"
-                onClick={() => handlePageChange("ContactForm")}
-              >
-                <div
-                  className="flip-container1"
-                  onTouchStart={() => this.classList.toggle('hover')}
-                >
-                  <div className="flipper1">
-                    <div className="front1">Contact</div>
-                    <div className="back1">Let's chat!</div>
                   </div>
                 </div>
               </a>
@@ -98,7 +78,7 @@ function NavBar({ currentPage, handlePageChange }) {
                 className="nav-link"
                 onClick={() =>
                   window.open(
-                    "https://drive.google.com/file/d/1jq-LPG-bwbaqS0QZSue9M8P5RvPQI5RN/view?usp=sharing",
+                    "https://drive.google.com/file/d/1TFjYOm7ho1WTLCEswVB7-Q8UYNEnqK2l/view?usp=sharing",
                     "_blank"
                   )
                 }
@@ -108,7 +88,7 @@ function NavBar({ currentPage, handlePageChange }) {
               >
                 <div
                   className="flip-container1"
-                  onTouchStart={() => this.classList.toggle('hover')}
+                  onTouchStart={() => this.classList.toggle("hover")}
                 >
                   <div className="flipper1">
                     <div className="front1">Resume</div>

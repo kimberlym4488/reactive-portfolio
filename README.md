@@ -6,7 +6,7 @@
 
 ## Table of Contents
 
-> [Author Name](#author-name) <br> >[Deployed Page](#deployed-page) <br> >[GitHub Repo](#github-repo) <br> >[Project Description](#project-description)<br> >[Installation](#installation)<br> >[Usage](#usage)<br> >[Test Instructions](#test-instructions)<br> >[Contribution Guidelines](#contribution)<br> >[Preview Image](#preview-image)<br> >[Video Walkthrough](#video-walkthrough)<br> >[GitHub username](#github-username)<br> >[Contact Me!](#contact-me-with-questions)<br>
+> [Author Name](#author-name) <br> [Deployed Page](#deployed-page) <br> [GitHub Repo](#github-repo) <br> [Project Description](#project-description)<br> [Installation](#installation)<br> [Usage](#usage)<br> [Test Instructions](#test-instructions)<br> [Contribution Guidelines](#contribution)<br> [Preview Image](#preview-image)<br> [Video Walkthrough](#video-walkthrough)<br> [GitHub username](#github-username)<br> [Contact Me!](#contact-me-with-questions)<br>
 
 ## Author Name
 

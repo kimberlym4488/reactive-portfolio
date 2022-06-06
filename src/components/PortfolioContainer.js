@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import NavBar from "./pages/NavBar";
 import AboutMe from "./pages/AboutMe";
 import Projects from "./pages/Projects";
-import ContactForm from "./pages/ContactForm";
+
 import Footer from "./pages/Footer";
 
 export default function PortfolioContainer() {
@@ -23,9 +23,6 @@ export default function PortfolioContainer() {
 
     if (currentPage === "Projects") {
       return <Projects />;
-    }
-    if (currentPage === "ContactForm") {
-      return <ContactForm />;
     }
   };
 

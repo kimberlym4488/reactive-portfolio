@@ -1,6 +1,5 @@
 import React from "react";
-// import profilePic from
-
+// styles
 const styles = {
   text: {
     backgroundColor: "rgb(13, 202, 240,.8)",
@@ -30,7 +29,7 @@ const styles = {
     fontSize: ".9rem",
   },
 };
-
+// jsx
 function AboutMe({ currentPage, handlePageChange }) {
   return (
     <>
@@ -44,8 +43,7 @@ function AboutMe({ currentPage, handlePageChange }) {
         >
           <p className="card-text col-sm-12 col-md-12 col-lg-6 col-xl-6 lh-lg px-4">
             <span style={styles.span}>A little about me: </span> Creative,
-            curious, determined self-starter with a love for technology.{" "}
-            <br></br>
+            curious, determined self-starter with a love for tech. <br></br>
             <br></br>
             <span style={styles.light}>
               {" "}
@@ -67,12 +65,14 @@ function AboutMe({ currentPage, handlePageChange }) {
               <br />
               <span style={styles.tech}>Node</span>
               <br />
+              <span style={styles.tech}>mySQL/Sequelize</span>
+              <br />
               <span style={styles.tech}>MongoDB/Mongoose</span>
+              <br />
+              <span style={styles.tech}>GraphQL/Apollo Server</span>
               <br />
               <span style={styles.tech}>Handlebars</span>
               <br />
-              <span style={styles.tech}>Sequelize</span>
-              <br></br>
               <br></br>
               My
               <a
@@ -84,7 +84,8 @@ function AboutMe({ currentPage, handlePageChange }) {
                 <span style={styles.span}> portfolio </span>
               </a>
               highlights my clean, responsive front-end designs using CSS
-              (Bootstrap, Bulma Frameworks) and in-line HTML/JSX styling.
+              (Material UI, Bootstrap, Bulma Frameworks) in-line HTML/JSX
+              styling.
             </span>
           </p>
 
