@@ -78,7 +78,7 @@ function NavBar({ currentPage, handlePageChange }) {
                 className="nav-link"
                 onClick={() =>
                   window.open(
-                    "https://drive.google.com/file/d/1TFjYOm7ho1WTLCEswVB7-Q8UYNEnqK2l/view?usp=sharing",
+                    "https://drive.google.com/file/d/1eIgHrTxtpWQCQMr8rBqEOYmoqrGvlfgk/view?usp=sharing",
                     "_blank"
                   )
                 }
